@@ -1,0 +1,14 @@
+graft src
+graft tests_functional
+graft tests_integrated
+graft tests_unit
+
+include setup.cfg
+include pyproject.toml
+include tox.ini
+
+include CHANGELOG.txt
+include MANIFEST.in
+include README.txt
+
+recursive-exclude * __pycache__ *.py[cod] .DS_Store
