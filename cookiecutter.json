@@ -1,6 +1,6 @@
 {
     "project_name": "My Project Name",
-    "project_directory": "{{cookiecutter.project_name.lower().strip().replace(' ', '_').replace(':', '_').replace('-', '_').replace('!', '_')}}",
+    "package_name": "{{cookiecutter.project_name.lower().strip().replace(' ', '_').replace(':', '_').replace('-', '_').replace('!', '_')}}",
     "_copy_without_render": [
         "static/*"
     ],

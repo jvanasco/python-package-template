@@ -1,2 +1,2 @@
 [run]
-source = {{ cookiecutter.repo_name }}
+source = {{ cookiecutter.package_name }}

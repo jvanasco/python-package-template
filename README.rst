@@ -9,7 +9,9 @@ This simply generates the core project directory and files.
 This is a quick way to kickstart a python project with a generic scaffold that
 has testing and code quality hooks.  This library is an abstraction of the
 package configuration and layout used by multiple open source and proprietary
-projects I maintain or assist in.  
+projects I contribute to or maintain myself.  This was created to save me the
+ten minutes (or so) it takes to stub out a new project whenever I make a new
+package.
 
 The project is configured to only test `/tests_unit`, however namespaces are
 created for `/tests_integrated` and `/tests_functional`.
